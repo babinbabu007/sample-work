@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+#container
+{
+margin-left:40%;
+margin-top:15%;
+width:250px;
+height:175px;
+border:2px solid;
+background-image:url('../assets/images/login.jpeg');
+box-shadow: 10px 10px 5px #888888;
+}
+</style>
+<title>
+Login
+</title>
+<script type="text/javascript">
+$('form').quickValidate();
+</script>
+</head>
+<body>
+<div id="container">
+<form method="post" action="">
+<div>
+<h3>Login Here</h3>
+Username:<input type="text" name="username" class="quickValidate" data-validate="required" required>
+</div>
+<div>
+Password:<input type="password" name="password" class="quickValidate" data-validate="required" required>
+</div>
+<div>
+<input type="Submit" name="submit" value="Login">
+</div>
+<form>
+</div>
+</body>
+</html>
